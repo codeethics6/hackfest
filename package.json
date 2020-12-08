@@ -1,0 +1,38 @@
+{
+  "name": "1203",
+  "version": "1.0.0",
+  "description": "aio framework",
+  "main": "performanceTest.js",
+  "scripts": {
+    "uiatest": "./node_modules/.bin/wdio ./wdio.conf.js",
+    "apitest": "mocha *.test.js",
+    "prftest": "node_modules/.bin/mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirtaraj/1203.git"
+  },
+  "author": "amirtaraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirtaraj/1203/issues"
+  },
+  "homepage": "https://github.com/amirtaraj/1203#readme",
+  "devDependencies": {
+    "@wdio/cli": "^6.10.5",
+    "@wdio/local-runner": "^6.10.5",
+    "@wdio/mocha-framework": "^6.10.4",
+    "@wdio/spec-reporter": "^6.8.1",
+    "@wdio/sync": "^6.10.4",
+    "chai": "^4.2.0",
+    "chromedriver": "^87.0.2",
+    "mocha": "^8.2.1",
+    "supertest": "^6.0.1",
+    "wdio-chromedriver-service": "^6.0.4",
+    "should": "^9.0.2",
+    "loadtest": "^5.1.2"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
