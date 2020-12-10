@@ -26,12 +26,10 @@
     "@wdio/sync": "^6.10.4",
     "benchtest": "^2.0.7",
     "chai": "^4.2.0",
-    "chromedriver": "^87.0.2",
     "loadtest": "^1.4.3",
     "mocha": "^8.2.1",
     "should": "^9.0.2",
-    "supertest": "^6.0.1",
-    "wdio-chromedriver-service": "^6.0.4"
+    "supertest": "^6.0.1"
   },
   "dependencies": {
     "express": "^4.17.1"
