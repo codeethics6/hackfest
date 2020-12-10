@@ -4,7 +4,7 @@
   "description": "aio framework",
   "main": "performanceTest.js",
   "scripts": {
-    "uiatest": "./node_modules/.bin/wdio ./wdio.conf.js",
+    "uitest": "wdio ./wdio.conf.js",
     "apitest": "mocha *.test.js",
     "prftest": "./node_modules/.bin/mocha --recursive"
   },
